@@ -14,6 +14,7 @@ then
 else
 	emphr=0;
 fi
+
 echo "salary:"$(( $EmpWageHr * $emphr ));
 
 
