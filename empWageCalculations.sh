@@ -1,4 +1,5 @@
 echo "Welcome to Employee Wage Computation Programame"
+
 isPartTime=1;
 isFullTime=2;
 empHrs=0;
@@ -36,4 +37,5 @@ randomCheck=$((RANDOM%3));
 	((day++));
 done
 echo "Employee has earned $totalSalary $ in a month (Total working Hour : $totalWorkingHour)";
-
+echo "Daily wage:"${salary[@]}
+echo "Total wage:"${totalSalary[@]}
